@@ -4,7 +4,18 @@ html, body {
     background: #EEE;
     overflow: hidden;
 }
+@media (min-width: 650px) {
+    html, body {
+        width: 100%;
+        height: 100%;
+        background: #EEE;
+        overflow: hidden;
 
+    }
+    html {
+        font-size: 100px;
+    }
+}
 html {
     font-size: 100px;
 }
@@ -788,6 +799,17 @@ html {
 
 }
 #page6 p{
+    -webkit-animation: bounceIn .8s linear .6s  both;
+    animation: bounceIn .8s linear .6s  both;
+}
+#page6 .page6 span{
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    top: 4.6rem;
+    left: 2.2rem;
+    background: url("../img/56.png")no-repeat;
+    background-size: cover;
     -webkit-animation: bounceIn .8s linear .6s  both;
     animation: bounceIn .8s linear .6s  both;
 }
